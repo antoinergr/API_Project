@@ -32,7 +32,7 @@ class Response:
         return rating
 
     
-    def get_topActors(self):
+    def get_top_actors(self):
 
         topImages= []
         topActors =[]
@@ -43,6 +43,6 @@ class Response:
         for images in self.content['actorList']:
             if images['name'] in topActors:
                 topImages.append(images['image'])
-                topActors = self.content['image']
+
 
         return topActors, topImages
