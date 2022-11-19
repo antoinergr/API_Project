@@ -4,7 +4,6 @@ from Request.Response import Response
 import unittest
 from unittest.mock import patch
 from unittest.mock import MagicMock
-from collections import namedtuple
 
 class TestRequest(unittest.TestCase):
 

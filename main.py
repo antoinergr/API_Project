@@ -1,11 +1,7 @@
 
 import streamlit as st
-import json
 from Request.ImdbRequest import ImdbRequest
 
-
-#f = open("./data.json")
-#my_movie_info = json.load(f)
 
 st.markdown("# **Welcome to** Do I Watch this Movie ?")
 st.write("## **THE** reference when you want to know more about a movie!")
