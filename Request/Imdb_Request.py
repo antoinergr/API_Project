@@ -1,12 +1,14 @@
 import requests
 from Request.Response import Response
-from Request import constant
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
-
+API_KEY = os.getenv('API_KEY')
 class ImdbRequest:
 
-    _id_url = "https://imdb-api.com/en/API/Search/" + constant.API_KEY + "/"
-    _content_url = "https://imdb-api.com/en/API/Title/" + constant.API_KEY + "/"
+    _id_url = "https://imdb-api.com/en/API/Search/" + API_KEY + "/"
+    _content_url = "https://imdb-api.com/en/API/Title/" + API_KEY + "/"
 
 
     @classmethod
