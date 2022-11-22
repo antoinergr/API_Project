@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_KEY = os.getenv('API_KEY')
+
 class ImdbRequest:
 
     _id_url = "https://imdb-api.com/en/API/Search/" + API_KEY + "/"
