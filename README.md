@@ -11,7 +11,7 @@ Imagining you are with your friends at home on a Friday night and you want to wa
 
 You can try it directly here : https://doiwatchthismovie.streamlit.app/
 
-- You can learn everything about our app here : [Presentation](https://github.com/antoinergr/API_Project/documentation/App_presentation.pdf)
+- You can learn everything about our app here : [Presentation](https://github.com/antoinergr/API_Project/blob/main/documentation/App_presentation.pdf)
 
 ## 2. Demo : 
 
